@@ -25,7 +25,11 @@
 
 5. Si todo está correcto, al ejecutar el simulador y correr el script de Matlab debiese imprimirse la posicion del puntero en el simulador:
 
+https://github.com/mrojasanchez/ELO325/assets/49776685/3df38a0d-cdf1-401b-b02e-d091bdd573f6
 
+6. Si ahora queremos comunicarnos con el robot Pionner, podemos utilizar la libreria disponible en CoppeliaSim. Cabe señalar que se debe desactivar el script que viene por defecto en el robot dado que el [script de Matlab](https://github.com/mrojasanchez/ELO325/blob/master/ayudantia_01/matlab/pioneerExample.m) es el que tomará control. NOTA: recordar que el script de Matlab debe residir en la misma carpeta donde se encuentren los archivos `remApi.m` , `remoteApi.dll` , `remoteApiProto.m` y `simpleSynchronousTest.m`.
+
+https://github.com/mrojasanchez/ELO325/assets/49776685/e0c80cbf-e727-4256-81da-ceb66723cf38
 
 # Opción B: Ubuntu 20.04 + Python
 ### Prerequisitos
