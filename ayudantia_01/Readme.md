@@ -100,8 +100,6 @@ conda install -c conda-forge opencv
 
 7. Ejecutamos el simulador y luego corremos el codigo de python
 
-   https://github.com/mrojasanchez/ELO325/assets/49776685/be8015bd-141e-4889-9804-1e3acea69a43
-
 
 
 
