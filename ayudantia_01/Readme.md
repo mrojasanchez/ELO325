@@ -5,6 +5,8 @@
 ## Links utiles
 [CoppeliaSim API](https://www.coppeliarobotics.com/helpFiles/en/apiFunctions.htm)
 
+[Intro a Coppelia (en Lua)](https://www.youtube.com/watch?v=l32IiRkCwxg&list=PLjzuoBhdtaXOYfcZOPS98uDTf4aAoDSRR&index=1) -> Aunque esté en Lua, las funciones son similares tanto para Python y Matlab.
+
 # Opción A: Windows + Matlab
 ### Prerequisitos
 1. Descargar e instalar Matlab
@@ -100,7 +102,8 @@ conda install -c conda-forge opencv
 
 7. Ejecutamos el simulador y luego corremos el codigo de python
 
-    
+
+
 
 
     
