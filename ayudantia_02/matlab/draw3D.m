@@ -1,4 +1,4 @@
-function draw3D(position, angles, t, xyz_goal)
+function draw3D(position, angles, t, xyz_goal, params)
     % Block spec
     Lx = 0.30;
     Ly = 0.20;
@@ -41,11 +41,15 @@ function draw3D(position, angles, t, xyz_goal)
     % Animation Loop
     set(hh, 'Vertices', vertices_ini_plane(:,:,1));
     set(hhh);
-    text(x_goal,y_goal,z_goal,[num2cell(idx)],'HorizontalAlignment','left','FontSize',8);
-    
+
+    if params.plot_path_num == true
+        text(x_goal,y_goal,z_goal,[num2cell(idx)],'HorizontalAlignment','left','FontSize',8);
+    end
+
     for i = 1:length(t)
+        % pause(0.01)
         set(h, 'Vertices', vertices(:,:,i));
-        drawnow;
+        drawnow
     end
 end
 
